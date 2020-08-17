@@ -11,18 +11,18 @@ body {
   background-color: #242424;
 }
 
+.family-name,
 h2{
-  color: #1874cd;
+  color: #000000;
 }
 
 h5,
 h6,
 #sideNav,
-.family-name,
 .fa-user-tag,
 .list-inline-item i:hover,
 .linkedin-link a {
-  color: #000000;
+  color: #4d4646;
 }
 
 h2,
@@ -104,11 +104,11 @@ a {
 .btn {
   background-image: linear-gradient(
     to right,
-    #bfefff,
-    #8dd2f3,
-    #5fb4e8,
-    #3594dc,
-    #1874cd
+    #d8cece,
+    #bdaeae,
+    #807070,
+    #5f5252,
+    #474040
   );
 }
 
