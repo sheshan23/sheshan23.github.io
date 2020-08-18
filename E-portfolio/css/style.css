@@ -11,7 +11,6 @@ body {
   background-color: #242424;
 }
 
-.family-name,
 h2{
   color: #000000;
 }
@@ -42,9 +41,10 @@ h1,
 }
 
 h1,
+.family-name,
 .mobile-name,
 .edu-icons {
-  color: #696969;
+  color: #8d8484;
 }
 
 .list-social-icons a,
@@ -100,16 +100,16 @@ a {
   padding-left: 0;
 }
 
-.progress-bar,
 .btn {
-  background-image: linear-gradient(
+  background-color: #4d4646;
+  /* background-image: linear-gradient(
     to right,
     #d8cece,
     #bdaeae,
     #807070,
     #5f5252,
     #474040
-  );
+  ); */
 }
 
 .btn {
