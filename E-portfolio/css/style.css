@@ -1,14 +1,19 @@
 body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  color: #242424;
+  color: #2b0909;
   width: 100%;
-  background-color: white;
+  background-color: #f1efea;
+  align-content: center;
   font-size: 1.1rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
-  background-color: #242424;
+  background-color: #12343b;
 }
 
 h2{
@@ -21,7 +26,7 @@ h6,
 .fa-user-tag,
 .list-inline-item i:hover,
 .linkedin-link a {
-  color: #4d4646;
+  color: #12343b;
 }
 
 h2,
@@ -44,7 +49,7 @@ h1,
 .family-name,
 .mobile-name,
 .edu-icons {
-  color: #8d8484;
+  color: #12343b;
 }
 
 .list-social-icons a,
@@ -101,7 +106,7 @@ a {
 }
 
 .btn {
-  background-color: #4d4646;
+  background-color: #12343b;
   /* background-image: linear-gradient(
     to right,
     #d8cece,
@@ -122,6 +127,16 @@ a {
 
 .card {
   width: auto;
+  border-style: solid;
+}
+
+.card-header {
+  background-color: #2d545e;
+}
+
+.card-body {
+  background-color: #f8f6f0;
+  color: #0e2b31;
 }
 
 button:focus,
@@ -180,6 +195,7 @@ button:active {
 
 .form-group {
   width: 50%;
+  background-color: #2d545e;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
